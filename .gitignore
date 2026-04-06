@@ -1,0 +1,45 @@
+# ── Build output ──────────────────────────────────────────────────────────────
+build_vs18/
+build/
+out/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.ifc
+*.ifc.dt.*
+*.recipe
+*.tlog
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.log
+
+# ── CMake generated ───────────────────────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# ── Visual Studio ─────────────────────────────────────────────────────────────
+*.vcxproj.user
+*.suo
+*.user
+*.sln
+*.slnx
+.vs/
+x64/
+ipch/
+
+# ── Temp test artefacts ───────────────────────────────────────────────────────
+tests/*/tmp/
+tests/phase7/tmp/
+build_log.txt
+undef_results.txt
+test_results.txt
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
